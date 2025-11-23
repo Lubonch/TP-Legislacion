@@ -1,29 +1,57 @@
-\documentclass[12pt,a4paper]{report}
-\usepackage[spanish]{babel}
-\usepackage[T1]{fontenc}
+\documentclass[12pt,a4paper,oneside]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{listings}
+\usepackage[spanish]{babel}
 \usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage{float}
-\usepackage{tikz}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
 
-\lstset{inputencoding=utf8}
+\geometry{left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
 
-\title{Trabajo Práctico: Análisis de Datos}
-\author{Juan Pérez}
-\date{\today}
+\onehalfspacing
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\titleformat{\section}{\bfseries\large}{\thesection.}{1em}{}
+\titleformat{\subsection}{\bfseries\normalsize}{\thesubsection.}{1em}{}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+}
 
 \begin{document}
 
 \input{caratula}
 
+\newpage
+\tableofcontents
+
+\newpage
 \input{introduccion}
 
+\newpage
 \input{desarrollo}
 
+\newpage
 \input{conclusion}
 
+\newpage
 \input{bibliografia}
 
 \end{document}
