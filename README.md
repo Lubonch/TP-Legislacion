@@ -2,8 +2,6 @@
 
 **Evolución del Sistema de Derechos en la Sociedad de la Información: Protección de Menores en Redes Sociales**
 
-Este repositorio contiene un trabajo académico desarrollado en LaTeX.
-
 ## Cómo generar el PDF
 
 ### Windows
